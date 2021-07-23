@@ -30,8 +30,8 @@ public class Transfer extends Login
 		 
 		 
 		 //select accounts #s from dropdown
-		 dropdown1.selectByValue("30216");
-		 dropdown2.selectByValue("36321");
+		 dropdown1.selectByValue("54081");
+		 dropdown2.selectByValue("54192");
 		 
 		 //click transfer button via xpath
 		 driver.findElement(By.xpath("//*[@id=\'rightPanel\']/div/div/form/div[2]/input")).click();
