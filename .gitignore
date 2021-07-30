@@ -1,2 +1,5 @@
 /bin/
 Resources/chromedriver.exe
+.class
+.metadata
+.settings
