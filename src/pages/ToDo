@@ -1,19 +1,19 @@
 To do:
 
-Look into Page Object Model 
+**Check** Look into Page Object Model 
 
-There’s some pretty long and gnarly xpaths in there - is there any way you could simplify those?
+**Check** There’s some pretty long and gnarly xpaths in there - is there any way you could simplify those?
 
-You could try and make your helper functions reusable. For example, the transfer() function could take some parameters, like account ids and amount 
+**Check**You could try and make your helper functions reusable. For example, the transfer() function could take some parameters, like account ids and amount 
 - this way you could reuse the function if you were testing transfer with different criteria.
 
 rename the driver.java to WebDriver.java, to note that as the Webdriver class.
 
-The way you're using inheritance is totally logically wrong. Check out inheritance vs composition and when to use each or if neither are necessary.
+**Check**The way you're using inheritance is totally logically wrong. Check out inheritance vs composition and when to use each or if neither are necessary.
 
-Generally you wont commit your .class files to a shared repo. Also the same for the .metadata, .settings, and bin folder (unless the team that is working on the code has similar setups/IDEs)
+**Check** Generally you wont commit your .class files to a shared repo. Also the same for the .metadata, .settings, and bin folder (unless the team that is working on the code has similar setups/IDEs)
 
-You also generally do not want to put specific directory paths into your code (here). If you share this code with someone else, their computer may not have a 'C:/Users/dev' folder.
+**Check** You also generally do not want to put specific directory paths into your code (here). If you share this code with someone else, their computer may not have a 'C:/Users/dev' folder.
 Try to have a config file, or pass it in during runtime.
 
 Assertions are among the most important things in any given test suite, for example. Another thing that could be useful to show that you know how to do would be using some sort of fixtures 
