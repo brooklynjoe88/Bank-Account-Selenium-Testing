@@ -75,9 +75,11 @@ public class BillPayPage
 		driver.findElement(amount).sendKeys(amountField);
 	}
 	
-	public void submitButton ()
+	public AboutPage submitButton ()
 	{
 		driver.findElement(submit).click();
+		
+		return new AboutPage(driver);
 	}
 	
 
